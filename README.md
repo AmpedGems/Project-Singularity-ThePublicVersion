@@ -1,5 +1,5 @@
-Current Info about the IDE 
 PHASE 1 TAB - ALL ELEMENTS
+
 1. (Button)
 Name: "Browse / Drop Game file "APK-XAPK-APKS-APKM-ZIP""
 Location: Docked at top of tab
@@ -8,6 +8,7 @@ Click: Opens file dialog to browse and select game files (APK, XAPK, APKS, APKM,
 Drag Enter: Validates dragged files, shows copy cursor for valid game file types
 Drag Drop: Processes dropped game files
 What It Does: Allows users to select or drag-drop game files for processing. Validates AmpedGems location is set before proceeding. Resets text boxes and processes the selected file.
+
 Example Running: 
 [12:48:45] 🔄 Reset Phase 1 text boxes for new file selection
 [12:48:45] 🚀 Starting game file selection...
@@ -15,6 +16,7 @@ Example Running:
 [12:48:47] ❌ No file selected - workspace preserved
 [12:48:47] ========================================
 [12:48:47] ✅ Game file selection completed!
+
 Example Running: 
 [12:48:55] 🔄 Reset Phase 1 text boxes for new file selection
 [12:48:55] 🚀 Starting game file selection...
@@ -235,7 +237,6 @@ Example Running:
 [13:21:10] 📋 APK conversion completed. Ready for next steps.
 [13:21:10] ========================================
 [13:21:10] ✅ APK conversion completed successfully!
-
 
 
 15.  (Button)
@@ -462,6 +463,8 @@ Name: "Recompile Normally"
 Actions:
 Click: Recompiles decompiled APK back into installable APK file
 What It Does: Recompiles APK using APKTool with default settings, zipaligns, and signs the APK for installation
+
+Example Running:
 [13:37:49] 🚀 Starting Auto Recompilation...
 [13:37:49] 🔍 Detecting AmpedGems structure...
 [13:37:49] 📁 Detected structure: New (tools folder)
@@ -508,17 +511,3 @@ Properties: BackColor = Light Gray, Dock = Bottom, Size = 197px height
 Location: Docked at bottom of tab
 Actions:  (display only)
 What It Does: Displays timestamped log messages for all Phase 1 operations, providing real-time feedback to the user
-
-
-
-
-
-
-
-
-
-
-
-
-
-
